@@ -26,5 +26,8 @@
     "axios": "^0.27.2",
     "tcp-ping": "github:mtrusczyk/tcp-ping",
     "use-config-json": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
   }
 }
