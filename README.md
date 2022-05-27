@@ -20,7 +20,7 @@ npm i
 
 ## Configure & Run
 
-`run.js` script will auto fetch nodes from [Bitnodes API V1](https://bitnodes.io/api), and filter nodes based on the country code defined on the script.
+`index.js` script will auto fetch nodes from [Bitnodes API V1](https://bitnodes.io/api), and filter nodes based on the country code defined on the script.
 
 Default country code is set to `JP` so if you need nodes from different country make sure to change this value from .env file.
 
