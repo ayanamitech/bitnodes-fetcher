@@ -1,0 +1,30 @@
+{
+  "name": "bitnodes-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch Bitcoin Nodes from bitnodes.io by country to reduce traffic across border",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayanamitech/bitnodes-fetcher.git"
+  },
+  "keywords": [
+    "bitcoin"
+  ],
+  "author": "AyanamiTech <ayanami0330@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayanamitech/bitnodes-fetcher/issues"
+  },
+  "homepage": "https://github.com/ayanamitech/bitnodes-fetcher#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "tcp-ping": "github:mtrusczyk/tcp-ping",
+    "use-config-json": "^1.0.4"
+  }
+}
